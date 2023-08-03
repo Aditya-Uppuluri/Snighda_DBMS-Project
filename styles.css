@@ -1,0 +1,66 @@
+.navflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(143, 255, 143);
+    padding: 10px;
+    height: 40px;
+    top: 0px;
+}
+
+.title{
+    font-size: larger;
+    font-weight: 300;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
+
+
+.navitems{
+    text-decoration: none;
+    color: green;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    margin: 10px;
+}
+
+footer{
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    left: 40%;
+    margin: 10px;
+}
+
+.doctorss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footerdiv{
+    background-color: rgb(143, 255, 143);
+
+}
+
+.doctor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.appprice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.doctoritem{
+    background-color: rgb(221, 255, 221);
+    border: solid green;
+    border-radius: 10px;
+    margin: 10px;
+}
