@@ -246,3 +246,14 @@ textarea#message {
         background-position: 100% 100%;
     }
 }
+
+.imagesreddy{
+    height: 500px;
+    width: 100%;
+}
+
+
+.about{
+    margin: 10px;
+    padding: 10px;
+}
