@@ -1,0 +1,96 @@
+.box {
+  position: relative;
+  top: 0;
+  opacity: 1;
+  float: left;
+  padding: 20px 20px 20px 20px;
+  width: 100%;
+  background: #6fffa6;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 100px;
+
+}
+
+
+.title {
+  width: 100%;
+  float: left;
+  line-height: 46px;
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 4px;
+  padding: 2px 2px 2px 4px;
+  text-shadow:3px 3px 1px #028a2b;
+
+}
+
+.input,
+.button {
+  margin-top: 30px;
+  height: 70px;
+  width: 100%;
+  float: left;
+  position: relative;
+
+}
+
+.input {
+  input {
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 300;
+  }
+
+}
+
+.button button {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 300;
+}
+
+.input label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+  line-height: 60px;
+}
+
+.pass-forgot {
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+}
+
+.click-efect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #00ff88;
+  border-radius: 50%;
+}
+
+.materialContainer {
+  width: 100%;
+  max-width: 460px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
