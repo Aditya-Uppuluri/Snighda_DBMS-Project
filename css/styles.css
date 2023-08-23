@@ -257,3 +257,23 @@ textarea#message {
     margin: 10px;
     padding: 10px;
 }
+
+.contactimage{
+    height: 600px;
+    width: 200px;
+    margin: 80px;
+}
+
+.contactall{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactdetails{
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.contactphone{
+    margin-bottom: 50px;
+}
